@@ -122,9 +122,9 @@ const LandingPage = () => {
   const [selectedCohort, setSelectedCohort] = useState(null);
 
   const programs = [
-    { id: 'VA', name: 'Virtual Assistant', icon: '💻', cohorts: ['Cohort 14'] },
-    { id: 'AiCE', name: 'AI Career Essentials', icon: '🤖', cohorts: ['Cohort 17'] },
-    { id: 'PF', name: 'Prof. Foundations', icon: '🚀', cohorts: ['Cohort 12'] },
+    { id: 'Jane', name: 'Jane', icon: '💻', cohorts: ['Cohort 14'] },
+    { id: 'Chuqs', name: 'Chuqs', icon: '🤖', cohorts: ['Cohort 17'] },
+    { id: 'Symone', name: 'Symone', icon: '🚀', cohorts: ['Cohort 12'] },
   ];
 
   // Feedback State
@@ -344,6 +344,7 @@ const styles = {
 };
 
 export default LandingPage;
+
 
 
 
